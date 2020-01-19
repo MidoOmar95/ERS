@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html{
+background-image: url('https://wallpapercave.com/wp/2N8Zebr.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    }
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: rgb(18, 113, 255);
+color: white;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+  .button2 {
+    background-color: rgb(18, 113, 255);
+    border: 2px solid rgb(18, 113, 255);
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 50px;
+    width: 300px;
+  }
+  
+  .button2:hover {
+    border: 2px solid rgb(18, 113, 255);
+    background-color: #FFFFFF;
+    color: rgb(18, 113, 255);
+  }
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+#main{
+    background-color: #FFFFFF;
+    max-width: 1000px;
+    margin: auto; 
+    border-radius: 25px;
+    margin-top: 100px;
+}
+#primary{
+    padding: 10 20;
+}
+
+
+nav{
+    background-image: url("logo.jpg");
+    background-repeat: no-repeat;
+    background-size: 155px;
+    height: 75px;
+    background-color: rgb(18, 113, 255);
+    margin-bottom: 30px;
+    padding-top: 40px;
+}
+#menu{
+    list-style-type: none;
+    margin: auto;
+    padding-left: 155px;
+}
+#menu li {
+    float: left;
+    height: 34px;
+}
+#menu li a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    padding: 8px;
+    background-color:rgb(18, 113, 255);
+}
+#menu li a:hover {
+    background-color: rgb(18, 113, 255);
+    color: #FFFFFF;
+}
+table{
+    width: 100%
+}
+td{
+    border: #000000 solid 1px;
+}
+input{
+    width:100%;
+    max-width: 200px;
+    height: 50px;
+}
